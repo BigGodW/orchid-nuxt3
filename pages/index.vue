@@ -5,8 +5,9 @@
 <template>
   <div>
     <HomeMyslide></HomeMyslide>
-    <!-- <BaseArticleitem></BaseArticleitem> -->
-    <BaseOrchiditem></BaseOrchiditem>
+    <HomeLivelist></HomeLivelist>
+    <BaseOrchidClass></BaseOrchidClass>
+    <HomeOrchidList></HomeOrchidList>
   </div>
 </template>
 

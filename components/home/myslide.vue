@@ -1,11 +1,10 @@
 <script setup>
-const { data: { value: { data: list } } } = 
-await useMyFetch('/api/slides',{query:{populate:"*"}})
+const { data: { value: { data: list } } } = await useMyFetch('/api/slides',{query:{populate:"*"}})
 const config = useRuntimeConfig()
 </script>
 <template>
     <div class="flex justify-center lg:justify-between">
-        <UCarousel class="bg-red-200 max-w-3xl " :items="list" arrows indicators
+        <UCarousel class=" max-w-3xl " :items="list" arrows indicators
             :ui="{ item: ' basis-full aspect-video rounded-lg overflow-hidden ' }" >
             <template v-slot="{ item }" class="relative">
                 <NuxtLink :to="item.href" class="w-full">
