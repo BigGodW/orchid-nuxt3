@@ -1,7 +1,8 @@
-export default function(url,config){
+export default function(url,obj){
     const config = useRuntimeConfig()
     return useFetch(url,{
-        ...config,
-        baseURL:config.baseURL
+        ...obj,
+        baseURL:config.public.apiBase
+
     })
 }
