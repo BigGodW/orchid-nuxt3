@@ -5,7 +5,7 @@ const orchidListStore = useOrchidListStore()
 
 </script>
 <template>
-    <div class=" grid grid-cols-2">
+    <div class=" grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 lg:gap-4">
       
       <BaseOrchiditem v-bind="orchid" v-for="orchid in orchidListStore.orchidList" :key="orchid.id"></BaseOrchiditem>
     </div>

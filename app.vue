@@ -12,7 +12,7 @@
 </style>
 <script setup>
 useHead({
-    script: [{ src: "https://at.alicdn.com/t/c/font_4842723_w9whaduuft.js" }]
+    script: [{ src: "https://at.alicdn.com/t/c/font_4842723_51f9txm4sx2.js" }]
 })
 const orchidClassStore = useOrchidClassStore()
 orchidClassStore.getOrchidClassList()

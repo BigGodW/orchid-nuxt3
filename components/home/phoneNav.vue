@@ -29,7 +29,7 @@
             </NuxtLink>
             <NuxtLink to="/about" class="flex flex-col items-center" activeClass="text-blue-600 font-black scale-110">
                 <svg class="icon text-[30px]" aria-hidden="true">
-                    <use xlink:href="#icon-qiye"></use>
+                    <use xlink:href="#icon-company"></use>
                 </svg>
                 <span class="text-[14px]">公司</span>
             </NuxtLink>

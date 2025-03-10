@@ -2,6 +2,11 @@
   <footer class=" mb-10 bg-base-200 flex flex-col-reverse 
   md:flex-row
   md:items-center text-base-content p-2 md:p-10">
+  <div class="text-center p-2 text-sm flex justify-center flex-col items-center">
+      <BaseIcomfont iconname="icon-yu" myclass="text-2xl"></BaseIcomfont>
+      <p>让爱兰、养兰、赏兰成为一种生活方式</p>
+      <p>让兰花的高贵典雅成为一种生活态度</p>
+    </div>
       <aside class="flex items-center">
           <img class="w-1/3 max-w-48" src="/img/兰花博览园logo.png" alt="">
           <p class="text-sm sm:text-lg">
