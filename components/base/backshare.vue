@@ -16,11 +16,11 @@ const share = ()=>{
     console.log('share')
     if(navigator?.share){
         navigator.share({
-            title:"web",
+            title:document.title,
             url:document.querySelector('link[rel=canonical]') ?
   document.querySelector('link[rel=canonical]').href :
   document.location.href,
-            text:'测试'
+            text:document.title
         })
     }
 }
