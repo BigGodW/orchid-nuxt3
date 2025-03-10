@@ -2,7 +2,9 @@
 
 <template>
   <div class="px-1 relative">
-    <BaseBackshare></BaseBackshare>
+    <OnlyPhone>
+      <BaseBackshare></BaseBackshare>
+    </OnlyPhone>
     <slot />
     <TheFooter></TheFooter>
   </div>
