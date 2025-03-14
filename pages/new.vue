@@ -1,3 +1,5 @@
 <template>
-    <h1>new</h1>
+    <div class="">
+                <BaseArticleitem v-for="i in 4"></BaseArticleitem>
+            </div>
 </template>
