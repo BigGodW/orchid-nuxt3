@@ -27,6 +27,11 @@
 definePageMeta({
     layout: 'backshare'
 })
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${orchid.name}-${titleChunk}` : orchid.name;
+  }
+})
 const route = useRoute()
 const id = route.params.id
 const config = useRuntimeConfig()
